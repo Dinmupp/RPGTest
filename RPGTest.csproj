@@ -75,7 +75,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\Blueprint.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\BlueprintDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftResultSlot.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CraftSystem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\LeftClick.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\CraftSystem\RightClick.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\PlayerInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomLootSystem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\WorkingStation.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\FirstPerson\FirstPersonController.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Hotbar\Hotbar.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\CloseInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\EquipmentSystem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InventoryDesign.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Inventory\StorageInventory.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ConsumeItem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateAttributeDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\DragItem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\Item.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttributeList.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemOnObject.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemType.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\PickUpItem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\ShowTooltip.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\SlotCover.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\SplitItem.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Tooltip\Tooltip.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Warp.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
@@ -94,6 +132,8 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\InventoryMaster\readme.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\Chest.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\InsideHouse.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\Mountain.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\Testmap1.tiled2unity.xml" />
